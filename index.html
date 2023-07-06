@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script language="JavaScript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/fireworks-js@2.x/dist/index.umd.js"></script>
+        <script src="confetti.js"></script>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="navbar-div">
+            <ul>
+                <li><a class="navbar-link" href="index.html">Home 🏠</a></li>
+                <li><a class="navbar-link" href="resume.pdf">Résumé 📃</a></li>
+                <li><a class="navbar-link" href="qualifications.html">Qualifications 🏛️</a></li>
+                <li><a class="navbar-link" href="projects.html">Projects 🏗️</a></li>
+            </ul>
+        </div>
+        <div id="title-box">
+            <div id="title-box-left">
+                <h1>Hey, I'm Jack! 👋</h1>
+            </div>
+            <div id="title-box-right">
+                <p>I'm a <span class="word"></span><span id="cursor">|</span>who achieved a first class</p> 
+                <p>honours degree in a Bachelor's of Computer Science from Cardiff University,
+                who is now studying a Master's of Data Science from the University of Bristol. Outside of academia I focus my work on
+                Machine Learning, Decentralized Systems, and Data Science.  
+                </p>
+            </div>
+        </div>
+        <div id="toybox">
+            <button class="button" id="confetti-btn" onclick="confetti_func()"><span>Résumé</span></button>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
