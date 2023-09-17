@@ -317,7 +317,7 @@ p {
 
     background: 
         linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0)),
-        linear-gradient(to right, rgb(0, 162, 255), rgba(0, 100, 200, 1));
+        linear-gradient(to right, #e86af0, #99aaff);
     background-size: 100% 3.4em, 0 3.4em;
     background-position: 100% 100%, 0 100%;
     background-repeat: no-repeat;
@@ -327,4 +327,11 @@ p {
 
 .transcript-button:hover {
     background-size: 0 3.4em, 100% 3.4em;
+}
+
+.transcript-button:active {
+    transform: scale(0.90);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
 }
