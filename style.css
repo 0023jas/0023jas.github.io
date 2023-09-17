@@ -12,7 +12,7 @@ body {
 }
 
 /* navigation bar */
-ul {
+#navbar-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@ ul {
     font-family: 'Roboto Mono', monospace;
 }
 
-li {
+#navbar-item {
     float: left;
     margin-left: 20px;
 }
@@ -126,6 +126,16 @@ p {
     transition: background-size 400ms;
 }
 
+#document-btn {
+    background: 
+        linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0)),
+        linear-gradient(to right, rgb(255, 99, 99), rgb(237, 38, 255));
+    background-size: 100% 2.2em, 0 2.2em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+
 #fireworks-btn {
     background: 
         linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0)),
@@ -191,3 +201,108 @@ p {
     /* Lowering the shadow */
 }
 
+.pdf {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* qualification page */
+
+#qual-box {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+
+    height: fit-content;
+    width: 500px;
+}
+
+#univ-box {
+    margin-top: 20px;
+
+    height: fit-content;
+    width: 500px;
+}
+
+#univ-header-box {
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+    height: fit-content;
+    width: 500px;
+    text-align: center;
+}
+
+.univ-header-box-text {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#univ-header-box-header {
+    margin: 0px;
+    padding: 0px;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+/*
+#univ-header-box-small {
+}
+*/
+
+#year-box {
+    margin-top: 10px;
+
+    height: 100px;
+    width: 500px;
+}
+
+#univ-year-box-header {
+    margin-top: 0px;
+    padding-top: 25px;
+    padding-left: 25px;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+#diploma-box {
+    margin-top: 10px;
+
+    height: 100px;
+    width: 500px;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: black;
+    
+    border-top: solid 1px white;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    text-align: left;
+    outline: none;
+
+    font-family: 'Roboto Mono', monospace;
+}
+  
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    padding: 0px 18px;
+    background-color: black;
+    border-bottom: solid 1px white;
+    color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    padding-left: 32px;
+
+    font-family: 'Roboto Mono', monospace;
+}
+
+.transcript-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
