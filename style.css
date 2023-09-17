@@ -335,3 +335,25 @@ p {
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
     /* Lowering the shadow */
 }
+
+/* Projects Page */
+.projects-box {
+    width: 700px;
+    height: 250px;
+    background-color: white;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects-sub-box {
+    float: left;
+
+    width: 200px;
+    height: 200px;
+
+    margin-left: 16.5px;
+    margin-right: 16.5px;
+
+    background-color: grey;
+}
