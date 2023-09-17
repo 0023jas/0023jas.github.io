@@ -50,7 +50,7 @@ body {
     height: 200px;
     width: fit-content;
 
-    margin-top: 200px;
+    margin-top: 175px;
     margin-left: auto;
     margin-right: auto;
 
@@ -302,7 +302,29 @@ p {
 }
 
 .transcript-button {
+    font-family: 'Roboto Mono', monospace;
+
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    padding: 12px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+
+    color: white;
+    border: 2px solid white;
+
+    background: 
+        linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0)),
+        linear-gradient(to right, rgb(0, 162, 255), rgba(0, 100, 200, 1));
+    background-size: 100% 3.4em, 0 3.4em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+
+}
+
+.transcript-button:hover {
+    background-size: 0 3.4em, 100% 3.4em;
 }

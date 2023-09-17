@@ -74,7 +74,7 @@ const confetti_func = () => {
 		confetti.stop()
 	}, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
     setTimeout(function() {
-        url = '/resume.pdf'
+        url = 'documents/resume.pdf'
         const a = document.createElement('a')
         a.href = url
         a.download = url.split('/').pop()
