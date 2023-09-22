@@ -367,7 +367,7 @@ p {
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
 }
 
-#project-menu-item {
+.project-menu-item {
     margin-bottom: 10px;
 
     width: 100%;
