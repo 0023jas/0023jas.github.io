@@ -337,6 +337,37 @@ p {
 }
 
 /* Projects Page */
+
+#projects-box {
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: white;
+    width: 800px;
+    height: 400px;
+}
+
+#projects-menu {
+    width: 300px;
+    height: 350px;
+
+    background-color: grey;
+    float: left;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+#projects-info {
+    width: 400px;
+    height: 350px;
+
+    background-color: grey;
+    float: right;
+    margin-top: 25px;
+    margin-right: 45px;
+}
+
+/*
 .projects-box {
     width: 700px;
     height: 250px;
@@ -357,3 +388,5 @@ p {
 
     background-color: grey;
 }
+*/
+
